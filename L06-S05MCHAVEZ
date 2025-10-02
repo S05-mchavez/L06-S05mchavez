@@ -1,1 +1,3 @@
 cd lab06-S05MCHAVEZ
+less ~/lab04-$MYGIT/myoglobin/myoglobin.homologs.fas
+rpsblast -query ~/lab04-$MYGIT/myoglobin/myoglobin.homologs.fas -db ~/data/Pfam/Pfam -out ~/lab06-$MYGIT/myoglobin/myoglobin.rps-blast.out  -outfmt "6 qseqid qlen qstart qend evalue stitle" -evalue .0000000001
